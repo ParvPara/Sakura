@@ -1,0 +1,21 @@
+{
+  "ExampleUser": {
+    "name": "ExampleUser",
+    "discord_username": "example_user",
+    "aliases": [
+      "Example"
+    ],
+    "traits": [
+      "friendly",
+      "helpful"
+    ],
+    "interests": [
+      "programming",
+      "AI"
+    ],
+    "relationship": "friend",
+    "first_seen": "2025-01-01T00:00:00.000000",
+    "last_seen": "2025-01-01T00:00:00.000000",
+    "interaction_count": 1
+  }
+}

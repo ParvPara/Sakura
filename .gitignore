@@ -1,0 +1,53 @@
+# Environment variables
+**/.env
+config/config.env
+
+# IDE
+**/.cursor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Data files (if sensitive)
+data/*.json
+
+# Config files (if they contain secrets)
+config/blacklist.txt
+config/whitelist.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Models (if large)
+*.bin
+*.pth
+*.onnx

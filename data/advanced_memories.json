@@ -1,0 +1,15 @@
+{
+  "short_term": [
+    {
+      "content": "ExampleUser said: Hello, how are you?\nSakura replied: I'm doing well, thank you for asking!",
+      "memory_type": "conversation",
+      "people_involved": [
+        "ExampleUser"
+      ],
+      "importance": 3,
+      "timestamp": "2025-01-01T00:00:00.000000",
+      "context": ""
+    }
+  ],
+  "long_term": []
+}

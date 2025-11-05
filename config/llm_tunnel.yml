@@ -1,0 +1,22 @@
+tunnel: YOUR_TUNNEL_ID
+credentials-file: /path/to/your/.cloudflared/YOUR_TUNNEL_ID.json
+ingress:
+  - hostname: llm-api.your-domain.com
+    service: http://localhost:4000
+    originRequest:
+      disableChunkedEncoding: true
+      originServerName: localhost:4000
+      httpHostHeader: localhost:4000
+      noHappyEyeballs: true
+      keepAliveConnections: 10
+      keepAliveTimeout: 30s
+  - hostname: api.your-domain.com
+    service: http://localhost:5000
+    originRequest:
+      disableChunkedEncoding: true
+      originServerName: localhost:5000
+      httpHostHeader: localhost:5000
+      noHappyEyeballs: true
+      keepAliveConnections: 10
+      keepAliveTimeout: 30s
+  - service: http_status:404
