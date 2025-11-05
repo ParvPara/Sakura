@@ -240,6 +240,8 @@ Memory data is stored in:
 
 ## Web Interface
 
+# The frontend repository has been kept private to protect sensitive information with the frontend code, to use the bot in a discord call use !join
+
 The bot includes a comprehensive web interface located in `sakura-frontend/`:
 
 - **Real-time Chat**: Web-based chat interface
