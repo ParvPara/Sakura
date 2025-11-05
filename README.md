@@ -2,7 +2,7 @@
 
 Sakura is a sophisticated Discord bot featuring advanced AI capabilities including voice interaction, text-to-speech, memory systems, and intelligent agentic tool routing. Built to demonstrate the advanced capabilities of current AI technology.
 
-##This repository was made to demonstrate current avilable technologies thus, has reduced capabilities or is not maintained/updated frequently compared to its development repository.
+## This repository was made to demonstrate current avilable technologies thus, has reduced capabilities or is not maintained/updated frequently compared to its development repository.
 
 ## Features
 
